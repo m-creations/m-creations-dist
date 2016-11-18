@@ -1,0 +1,10 @@
+https://github.com/attila-lendvai/iolib.git
+https://github.com/gonzojive/cl-spidermonkey.git
+https://github.com/orivej/quickdist.git
+https://github.com/pinterface/cl-ftp.git
+https://github.com/Shirakumo/dist.git
+https://github.com/darabi/cl-graph.git
+https://github.com/darabi/cl-libssh2.git
+https://github.com/darabi/foil.git
+https://github.com/darabi/local-time.git
+https://github.com/darabi/slime.git

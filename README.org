@@ -1,0 +1,29 @@
+#+TITLE:    Quicklisp distribution by m-creations
+#+AUTHOR:   Kambiz Darabi
+#+EMAIL:    darabi@m-creations.net
+
+* Introduction
+
+This project contains the tiny pieces which are necessary to create a
+[[http://quicklisp.org][Quicklisp]] distribution. We use this distribution internally in our
+company to give all team members access to the same set of libraries
+at a specific version without having to check out their respective git
+repos.
+
+* Included Projects
+
+As we use the [[http://dwim.hu][dwim.hu]] software stack with a small number of patches to
+some of them, the dist mainly consists of those projects plus some
+others which are e.g. not yet available with quicklisp. This is the
+current list of repositories:
+
+#+INCLUDE: "repositories.txt" example
+
+* Acknowledgement
+
+Many thanks to the people who made this possible, in alphabetical
+order:
+
+- [[http://xach.com/][Zach Beane]] for Quicklisp
+- the [[http://dwim.hu][dwim.hu]] team
+- [[http://shinmera.com/][Nicolas Hafner]] shirakumo-dist
