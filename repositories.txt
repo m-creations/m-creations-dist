@@ -8,3 +8,5 @@ https://github.com/darabi/cl-libssh2.git
 https://github.com/darabi/foil.git
 https://github.com/darabi/local-time.git
 https://github.com/darabi/slime.git
+https://github.com/darabi/cl-containers.git
+https://github.com/darabi/com.informatimago.git
