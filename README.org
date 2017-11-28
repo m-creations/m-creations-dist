@@ -10,7 +10,19 @@ company to give all team members access to the same set of libraries
 at a specific version without having to check out their respective git
 repos.
 
-* Included Projects
+* How to create a new dist
+
+Check the repos in ~repositories.txt~ and make sure their master
+branch contains the code which you want to see in the dist.
+
+Then perform the following:
+
+#+BEGIN_SRC
+cd m-creations-dist
+sbcl --eval "(push #p\"$(pwd)/\" asdf:*central-registry*)" --eval "(ql:quickload :m-creations-dist)" --eval "(m-creations-dist::redist)"
+#+END_SRC
+
+* Included projects
 
 As we use the [[http://dwim.hu][dwim.hu]] software stack with a small number of patches to
 some of them, the dist mainly consists of those projects plus some
