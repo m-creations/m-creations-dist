@@ -9,7 +9,8 @@
   :author "Kambiz Darabi <darabi@m-creations.net>"
   :license "Apache v2"
   :serial t
-  :depends-on (:shirakumo-dist)
+  :depends-on (:cffi-grovel
+               :hu.dwim.asdf
+               :shirakumo-dist)
   :components ((:file "package")
                (:file "m-creations-dist")))
-
