@@ -19,6 +19,7 @@ Then perform the following:
 
 #+BEGIN_SRC
 cd m-creations-dist
+rm -rf source/*
 sbcl --eval "(push #p\"$(pwd)/\" asdf:*central-registry*)" --eval "(ql:quickload :m-creations-dist)" --eval "(m-creations-dist::redist)"
 #+END_SRC
 
