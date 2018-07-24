@@ -23,6 +23,12 @@ rm -rf source/*
 sbcl --eval "(push #p\"$(pwd)/\" asdf:*central-registry*)" --eval "(ql:quickload :m-creations-dist)" --eval "(m-creations-dist::redist)"
 #+END_SRC
 
+When finished, the contents of the ~release/~ directory can be
+synchronised to a publicly available server:
+
+#+BEGIN_SRC
+rsync -av release/ server:/var/www/quicklisp/
+#+END_SRC
 * Included projects
 
 As we use the [[http://dwim.hu][dwim.hu]] software stack with a small number of patches to
