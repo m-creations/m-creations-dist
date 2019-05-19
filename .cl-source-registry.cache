@@ -1,0 +1,2 @@
+;; empty source-registry-cache avoids asdf searching subdirs of this directory
+(:source-registry-cache)
