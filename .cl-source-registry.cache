@@ -1,2 +1,2 @@
-;; empty source-registry-cache avoids asdf searching subdirs of this directory
-(:source-registry-cache)
+;; source-registry-cache contains the .asd files in this directory and avoids asdf searching subdirs
+(:source-registry-cache "m-creations-dist.asd")
